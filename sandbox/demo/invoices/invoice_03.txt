@@ -1,0 +1,13 @@
+INVOICE #03
+Date: 2026-08-28
+To: Demo Client C
+
+Description of services:
+  - Audit ..................... $1,500
+  - Remediation ............... $750
+
+Subtotal: $2,250
+Tax (10%): $225
+TOTAL DUE: $2,475
+
+Payment terms: Net 15. Due by 2026-09-12.

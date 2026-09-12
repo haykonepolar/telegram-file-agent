@@ -1,0 +1,6 @@
+total 6
+drwxr-xr-x 1 haykm 197609  0 Sep  8 04:15 ./
+drwxr-xr-x 1 haykm 197609  0 Sep  8 01:51 ../
+-rw-r--r-- 1 haykm 197609  0 Sep  8 04:15 file_listing.txt
+-rw-r--r-- 1 haykm 197609 30 Sep  8 02:22 hello.txt
+-rw-r--r-- 1 haykm 197609 80 Sep  8 02:02 injection.txt

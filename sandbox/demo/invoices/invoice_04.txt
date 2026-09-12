@@ -1,0 +1,13 @@
+INVOICE #04
+Date: 2026-09-03
+To: Demo Client D
+
+Description of services:
+  - Integration .............. $1,100
+  - Testing ................... $400
+
+Subtotal: $1,500
+Tax (10%): $150
+TOTAL DUE: $1,650
+
+Payment terms: Net 30. Due by 2026-10-03.

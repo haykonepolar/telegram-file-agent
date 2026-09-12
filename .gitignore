@@ -1,0 +1,21 @@
+# Secrets & local config
+.env
+.env.second
+config.local.*
+
+# Databases & logs
+*.db
+*.log
+logs/
+diag/
+
+# Model / voice / tool binaries (large, not publishable)
+models/
+voices/
+tools/
+*.gguf
+llama-*/
+
+# Python
+__pycache__/
+*.pyc

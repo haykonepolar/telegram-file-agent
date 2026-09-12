@@ -1,0 +1,20 @@
+{
+  "models": [
+    {
+      "id": "ornith-9b-q4_k_m",
+      "file_path": "C:\\Users\\haykm\\.ollama\\models\\qwen-custom\\Ornith-1.5-9B-Q4_K_M.gguf",
+      "min_vram_gb": 5,
+      "suggested_gpu_layers": 99,
+      "family": "qwen-ornith",
+      "availability": true
+    },
+    {
+      "id": "qwen3-4b-instruct-q4",
+      "file_path": null,
+      "min_vram_gb": 0,
+      "suggested_gpu_layers": 0,
+      "family": "qwen3",
+      "availability": false
+    }
+  ]
+}

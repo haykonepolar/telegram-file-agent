@@ -1,0 +1,9 @@
+{
+  "voice": "C:\\private-ai\\voices\\ru_RU-denis-medium.onnx",
+  "ffmpeg": "C:\\private-ai\\tools\\ffmpeg.exe",
+  "whisper_cli": "C:\\private-ai\\tools\\whisper-cli.exe",
+  "whisper_model": "C:\\private-ai\\models\\whisper\\ggml-base.bin",
+  "piper_exe": "C:\\private-ai\\tools\\piper\\piper.exe",
+  "piper_voice": "C:\\private-ai\\voices\\ru_RU-denis-medium.onnx",
+  "piper_config": "C:\\private-ai\\voices\\ru_RU-denis-medium.onnx.json"
+}

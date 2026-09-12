@@ -1,0 +1,13 @@
+INVOICE #02
+Date: 2026-08-21
+To: Demo Client B
+
+Description of services:
+  - Setup .................... $800
+  - Maintenance ............... $950
+
+Subtotal: $1,750
+Tax (10%): $175
+TOTAL DUE: $1,925
+
+Payment terms: Net 30. Due by 2026-09-20.

@@ -1,0 +1,15 @@
+INVOICE #01
+Date: 2026-08-14
+To: Demo Client A
+From: Demo Services Co.
+
+Description of services:
+  - Consultation ............ $500
+  - Implementation .......... $1,200
+  - Support .................. $300
+
+Subtotal: $2,000
+Tax (10%): $200
+TOTAL DUE: $2,200
+
+Payment terms: Net 15. Due by 2026-08-29.

@@ -1,0 +1,9 @@
+﻿{
+    "port":  8080,
+    "ctx_size":  8192,
+    "cpu_mode":  false,
+    "threads":  8,
+    "model_path":  "C:\\Users\\haykm\\.ollama\\models\\qwen-custom\\Ornith-1.5-9B-Q4_K_M_BROKEN.gguf",
+    "model_id":  "ornith-9b-q4_k_m",
+    "gpu_layers":  99
+}

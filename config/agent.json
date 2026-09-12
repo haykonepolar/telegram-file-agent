@@ -1,0 +1,11 @@
+{
+  "provider": "zai",
+  "model": "glm-5.3-flash",
+  "timeout_step_s": 180,
+  "timeout_task_s": 600,
+  "agent_quota_per_day": 20,
+  "reasoning": "low",
+  "fallback_models": ["glm-4.5-flash", "glm-4.7-flash"],
+  "escalation_model": "glm-5.3",
+  "escalation_cap_per_day": 10
+}

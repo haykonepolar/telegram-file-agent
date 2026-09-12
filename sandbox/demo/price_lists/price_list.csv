@@ -1,0 +1,12 @@
+service,unit,price_usd
+consultation,hour,150
+implementation,task,300
+support,month,300
+setup,fixed,800
+maintenance,month,950
+audit,fixed,1500
+remediation,task,750
+integration,task,1100
+testing,hour,120
+training,session,600
+handover,fixed,350

@@ -1,0 +1,10 @@
+PAYMENT TERMS — DEMO
+
+Standard terms for demo services:
+
+- Net 15: payment due within 15 days of invoice date.
+- Net 30: payment due within 30 days of invoice date.
+- Late payments: no interest charged (demo only).
+- All amounts are in USD unless otherwise noted.
+
+Contact for billing inquiries: demo@example.com

@@ -1,0 +1,13 @@
+INVOICE #05
+Date: 2026-09-10
+To: Demo Client E
+
+Description of services:
+  - Training .................. $600
+  - Handover ................. $350
+
+Subtotal: $950
+Tax (10%): $95
+TOTAL DUE: $1,045
+
+Payment terms: Net 15. Due by 2026-09-25.
