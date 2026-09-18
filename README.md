@@ -43,13 +43,39 @@ See [docs/security-model.md](docs/security-model.md) for the full risk classes, 
 
 ## Getting started
 
-1. Open the project at `C:\private-ai`.
-2. Put your credentials in `.env` (and `.env.second` for the fallback model). Use
-   `python bot\check_env.py` to confirm no keys are still placeholders.
-3. Run the classifier tests:  `python bot\test_classifier.py`
-4. Start the bot:        `python bot\bot.py`
-
-The bot token must be pasted into `.env` as `BOT_TOKEN=...` (never hardcoded in code).
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/haykonepolar/telegram-file-agent.git
+   ```
+2. Enter the project folder:
+   ```bash
+   cd telegram-file-agent
+   ```
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+4. Provide an LLM backend — the bot talks to an OpenAI-compatible endpoint (see `bot/bot.py`). Choose one:
+   - **Local:** run a llama-server binary and start it so it serves at `http://127.0.0.1:8080` (the default in `bot/bot.py`, path `/v1/chat/completions`), or
+   - **API key:** set an OpenAI-compatible API key + endpoint in `.env`.
+   No LLM backend means the bot will report "model is not responding."
+5. Create `.env` from the example and fill in real values:
+   ```bash
+   copy .env.example .env
+   ```
+   Open `.env` and replace every `changeme` with your own value (obtain each key from its source — e.g. `BOT_TOKEN` from your Telegram bot, `SANDBOX_DIR` as the local path you want to sandbox, `TELEGRAM_ALLOWED_IDS`/`TELEGRAM_CHANNEL_LINK` from your account/channel). The example ships only with placeholder values; **never commit `.env`.**
+6. Verify the environment is wired up correctly:
+   ```bash
+   python bot\check_env.py
+   ```
+7. Run the classifier tests (must pass):
+   ```bash
+   python bot\test_classifier.py
+   ```
+8. Start the bot:
+   ```bash
+   python bot\bot.py
+   ```
 
 ## Repository layout
 
@@ -59,6 +85,8 @@ The bot token must be pasted into `.env` as `BOT_TOKEN=...` (never hardcoded in 
 | `config\` | Runtime config (persona, model selection, hardware profile) |
 | `sandbox\demo\` | Demo seed data used by tests and examples |
 | `docs\` | Security model + example session write-ups |
+| `.env.example` | Placeholder env file — copy to `.env`; contains only key names, no secrets |
+| `requirements.txt` | Runtime Python dependencies (derived from actual imports) |
 | `.env`, `.env.second` | Local secrets — **never committed** |
 
 > This repo intentionally contains only source, config, demo seed, and docs. The large

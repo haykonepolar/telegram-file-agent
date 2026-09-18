@@ -1,0 +1,9 @@
+# Runtime dependencies for telegram-file-agent
+# Derived from actual imports in bot/*.py, cross-checked against this machine's interpreters.
+# Verified runnable under the default Windows Python (3.13) at:
+#   C:\Users\haykm\AppData\Local\Microsoft\WindowsApps\<python>\python.exe
+# where `import telegram` succeeds with version 22.8 and test_classifier.py passes.
+# NOTE: the hermes-agent venv (Python 3.11) does NOT have this package installed;
+# install with `pip install -r requirements.txt` in the interpreter you actually run bot.py under.
+
+python-telegram-bot==22.8
